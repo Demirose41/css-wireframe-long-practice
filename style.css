@@ -1,0 +1,66 @@
+.nav__upper {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 1%;
+}
+
+.upper__left{
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: 25%;
+    right: 25%;
+}
+
+.upper__right{
+    display: block;
+    position:relative;
+    left: 85%;
+    
+}
+.upper__right > a{
+    color: green;
+    margin: 5px;
+}
+.get-started{
+    border: 1px, solid, green;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.nav__lower {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.nav__lower > a{
+    color: gray;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content {
+    margin-left:  32%;
+    margin-right: 32%;
+    justify-items: center;
+    justify-self:  center;
+    text-align: left;
+}
+
+.main__img {
+    margin: auto;
+    width: 100%;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif
+}
+
